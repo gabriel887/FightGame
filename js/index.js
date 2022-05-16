@@ -40,7 +40,7 @@ const player = new Fighter({
             jump: {imageSrc: "./img/samuraiMack/Jump.png", framesMax: 2, image: new Image()},
             fall: {imageSrc: "./img/samuraiMack/Fall.png", framesMax: 2, image: new Image()},
             attack1: {imageSrc: "./img/samuraiMack/Attack1.png", framesMax: 6, image: new Image()},
-            takeHit: {imageSrc: "./img/samuraiMack/Take hit - white silhouette.png", framesMax: 4, image: new Image()},
+            takeHit: {imageSrc: "./img/samuraiMack/TakeHitWhiteSilhouette.png", framesMax: 4, image: new Image()},
             death: {imageSrc: "./img/samuraiMack/Death.png", framesMax: 6, image: new Image()}
         },
         attackBox: {
@@ -64,7 +64,7 @@ const enemy = new Fighter({
             jump: {imageSrc: "./img/kenji/Jump.png", framesMax: 2, image: new Image()},
             fall: {imageSrc: "./img/kenji/Fall.png", framesMax: 2, image: new Image()},
             attack1: {imageSrc: "./img/kenji/Attack1.png", framesMax: 4, image: new Image()},
-            takeHit: {imageSrc: "./img/kenji/Take hit.png", framesMax: 3, image: new Image()},
+            takeHit: {imageSrc: "./img/kenji/TakeHit.png", framesMax: 3, image: new Image()},
             death: {imageSrc: "./img/kenji/Death.png", framesMax: 7, image: new Image()}
 
     },
