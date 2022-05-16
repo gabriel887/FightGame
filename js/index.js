@@ -26,7 +26,7 @@ const shop = new Sprite({
 
 // Personagens
 const player = new Fighter({
-        position: {x: 0, y:0 },
+        position: {x: 70, y:0 },
         velocity: {x:0,y:0},
         color: "green",
         offset: {x: 0, y: 0},
